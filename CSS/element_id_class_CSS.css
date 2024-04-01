@@ -1,0 +1,31 @@
+/*  ELEMENTS   */
+body {
+    background-color: bisque;
+}
+
+h1{
+    color: grey;
+    text-align: center;
+}
+
+h3{
+    color: crimson;
+    text-align: right;
+}
+
+
+span{
+    color: rgb(38, 9, 168);
+}
+
+/*   CLASS   */
+.square {
+    height: 100px;
+    width: 100px;
+    background-color: navy;
+}
+
+#circle {
+    height: 100px;
+    width: 100px;
+}
