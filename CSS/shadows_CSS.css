@@ -1,0 +1,20 @@
+/*
+    Shawdowing a text uses the keyword "text-shadow"
+    Parameters: Vertical Horizontal Blur ShadowColour
+    e.g 2px 2px 3px black
+
+    Shawdowing a box uses the keyword "box-shadow"
+    Same methods od parameters apply
+*/
+
+.shad {
+    background-color: darkorange;
+    height: 100px;
+    width: 100px;
+    box-shadow: 3px 3px 2px black;
+}
+
+.shad_text{
+    color: fuchsia;
+    text-shadow: 2px 2px 3px black;
+}

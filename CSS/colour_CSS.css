@@ -1,0 +1,46 @@
+/* Different ways to add colour */
+/*
+1. With actual name of the colour
+2. With the Hex Code of the colour
+3. With the RGB representation of the colour
+*/
+
+.name {
+    color: red;
+}
+
+.hexcode {
+    color: #FF00FF;
+}
+
+.rgb {
+    color: rgb(0, 0, 128);
+}
+
+/*
+By using the "background" keyword, we can also use gradient that are;
+    1. Linear
+    2. Repeating-Linear
+    3. Radial
+    4. Conic
+
+Also, you can alter the direction of the gradient with;
+    1. horizontally (to left & to right)
+    2. vertically (to top & to bottom (default))
+    3. diagonally (to top right, to bottom left etc)
+
+NB:
+    Gradient can take multiple colours. Not just 2.
+.*/
+
+.containerA {
+    height: 150px;
+    width: 300px;
+    background: linear-gradient(to right, #66c2ff, blue)
+}
+
+.containerB {
+    height: 150px;
+    width: 300px;
+    background: linear-gradient(to right bottom, #66c2ff, blue)
+}
