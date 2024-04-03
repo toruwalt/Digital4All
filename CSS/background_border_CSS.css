@@ -1,0 +1,14 @@
+/* The keyword "background" extends to other things 
+ * background-color
+ * background-image
+ * background-position
+ * background-clip
+ * background-origin
+ * background-attachment
+ */
+
+.bg_check {
+	height: 300px;
+	width: 300px;
+	background-image: url();
+}
