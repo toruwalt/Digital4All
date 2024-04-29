@@ -44,3 +44,8 @@ NB:
     width: 300px;
     background: linear-gradient(to right bottom, #66c2ff, blue)
 }
+
+.containerB {
+    height: 150px;
+    width: 300px;
+    background: linear-gradient(to left bottom, #66c2ff, blue)
